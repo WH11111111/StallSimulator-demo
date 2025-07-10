@@ -1,0 +1,72 @@
+# Visual Studio 2015 user-specific files
+.vs/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static Libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Generated project files
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.sou
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Precompiled Assets
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Binary Files
+Binaries/*
+Plugins/*/Binaries/*
+
+# Build directories
+Build/*
+
+# Whitelist PakBlacklist-<BuildConfiguration>.txt-files
+!Build/*
+Build/*/**
+!Build/*/PakBlacklist*.txt
+
+#Don`t ignore icon files in Build
+!Build/**/*.ico
+
+# Built data for maps
+*_BuildData.uasset
+
+# Editor-generated configuration files
+Saved/*
+
+# Intermediate files
+Intermediate/*
+Plugins/*/Intermediate/*
+
+# Cache files for the editor
+DerivedDataCache/*
