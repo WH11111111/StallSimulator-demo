@@ -65,9 +65,11 @@ Build/*/**
 
 # Editor-generated configuration files
 Saved/*
+Saved/
 
 # Intermediate files
 Intermediate/*
+Saved/
 Plugins/*/Intermediate/*
 
 # Cache files for the editor
